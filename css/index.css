@@ -95,6 +95,23 @@ p {
     text-decoration: none;
 }
 
+@keyframes navAnimation {
+    from {background-color: white;}
+    to {background-color: black;}
+  }
+
+.topNavigation a:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid #B5B5B5;
+    border-radius: 7px;
+    /* border: 2px solid black; */
+    /* border-radius: 7px; */
+    padding: 2% 5%;
+    animation: navAnimation 500ms linear 0s 1 alternate;
+    font-variant: small-caps;
+}
+
 /* Header Image */
 
 .headerImage {
