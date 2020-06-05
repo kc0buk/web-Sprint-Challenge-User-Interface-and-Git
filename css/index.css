@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid gray; LAYOUT ASSISTANCE BORDER */
 }
 
 html, body {
@@ -69,6 +70,36 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* Navigation & logo */
+
+.pageHeader {
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    margin: 3%;
+}
+
+.topNavigation {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topNavigation a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Header Image */
+
+.headerImage {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -112,7 +143,7 @@ p {
     justify-content: center;
 }
 
-
+/* Middle content box colors */
 .boxOne {
     background-color: teal;
 }
