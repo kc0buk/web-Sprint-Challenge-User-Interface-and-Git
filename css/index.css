@@ -110,10 +110,54 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.full-width-section {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.full-width-section-two {
+    margin-bottom: 20px;
+}
+
+.full-width-section p {
+    margin-bottom: 20px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid-square {
+    width: 45%;
+    height: 55vh;
+    border-bottom: 1px dashed black;
+    margin: 30px 20px;
+}
+
+.grid-square img {
+    margin-bottom: 10px;
+}
+
+.grid-square p {
+    margin-bottom: 30px;
+}
+
+.grid-square a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 2% 5%;
+    margin: 20px 0;
 }
 
 .middle-content {
