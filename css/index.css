@@ -91,8 +91,12 @@ p {
 }
 
 .topNavigation a {
+    display: inline-block;
+    width: 20%;
     color: black;
     text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 @keyframes navAnimation {
@@ -101,14 +105,16 @@ p {
   }
 
 .topNavigation a:hover {
+    display: inline-block;
+    width: 20%;
     color: white;
     background-color: black;
-    border: 2px solid #B5B5B5;
+    /* border: 2px solid #B5B5B5; */
     border-radius: 7px;
-    /* border: 2px solid black; */
-    /* border-radius: 7px; */
     padding: 2% 5%;
     animation: navAnimation 500ms linear 0s 1 alternate;
+    text-align: center;
+    letter-spacing: 2px;
     font-variant: small-caps;
 }
 
